@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSRS Customizer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>CSRS Customizer</h1>
+  <h2>Calculate GWA</h2>
+  <button id="calculateGwaButton">Calculate GWA</button>
+  <p>Choose font from the dropdown</p>
+  <select id="fontSelector">
+    <option value="default">Default</option>
+    <option value="inter">Inter</option>
+    <option value="sf-ui">SF UI Display</option>
+    <option value="roboto">Roboto</option>
+    <option value="open-sans">Open Sans</option>
+    <option value="courier-new">Courier New</option>
+    <option value="times-new-roman">Times New Roman</option>
+  </select>
+  <button id="injectFontsButton">Apply Font</button>
+  
+  <h2>Customize Colors</h2>
+  <label for="backgroundColorPicker">Background Color:</label>
+  <input type="color" id="backgroundColorPicker" value="#8a1538">
+  <label for="borderColorPicker">Border Color:</label>
+  <input type="color" id="borderColorPicker" value="#00573F"> <br>
+  <button id="changeColorsButton">Change Colors</button>
+  
+  <h2>Customize Padding</h2>
+  <label for="paddingValue">Padding (px):</label>
+  <input type="number" id="paddingValue" value="10" min="0" step="1">
+  <button id="changePaddingButton">Change Padding</button>
+  
+  <h2>Other Actions</h2>
+  <button id="removeBordersButton">Remove Borders</button>
+  <button id="alternateRowColorsButton">Alternating Row Colors</button>
+  <!-- <button id="removeYearSemesterButton">Remove Year & Semester Columns</button> -->
+  <button id="reverseChangesButton">Reverse Changes</button>
+  
+  <h2>Calculate Cumulative GWA</h2>
+  <p>This section allows you to compute only the cumulative GWA, total units, and laude standing in the prospectus page. This is useful for shiftees who cannot do this in the Grades page that is if the grades are also complete here.</p>
+  <button id="calculateCumulativeGwaButton">Calculate Cumulative GWA</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
