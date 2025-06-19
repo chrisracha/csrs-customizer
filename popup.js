@@ -336,7 +336,7 @@ function calculateGwa() {
       const gwaRow = document.createElement("tr");
       gwaRow.innerHTML = `
         <td colspan="2" style="font-weight: bold;">Semestral GWA</td>
-        <td colspan="2" style="text-align: center;">${hasIncomplete ? `Incomplete/${gwa.toFixed(2)}(Partial)` : gwa.toFixed(2)}</td>
+        <td colspan="2" style="text-align: center;">${hasIncomplete ? `Incomplete/${gwa.toFixed(4)}(Partial)` : gwa.toFixed(4)}</td>
         <td colspan="2" style="text-align: center;">${semestralStanding}</td>
       `;
       table.appendChild(gwaRow);
@@ -368,7 +368,7 @@ function calculateGwa() {
       </tr>
       <tr>
         <td colspan="2" style="font-weight: bold;">Cumulative GWA</td>
-        <td colspan="4" style="text-align: center;">${cumulativeGwa.toFixed(2)}</td>
+        <td colspan="4" style="text-align: center;">${cumulativeGwa.toFixed(4)}</td>
       </tr>
       <tr>
         <td colspan="2" style="font-weight: bold;">Laude Standing</td>
@@ -477,7 +477,7 @@ function calculateCumulativeGwa() {
       </tr>
       <tr>
         <td colspan="2" style="font-weight: bold;">Cumulative GWA</td>
-        <td colspan="4" style="text-align: center;">${cumulativeGwa.toFixed(2)}</td>
+        <td colspan="4" style="text-align: center;">${cumulativeGwa.toFixed(4)}</td>
       </tr>
       <tr>
         <td colspan="2" style="font-weight: bold;">Laude Standing</td>
