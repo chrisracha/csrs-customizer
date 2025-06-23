@@ -1,6 +1,8 @@
 # CSRS Customizer
 
-A Chrome extension that customizes the UP Mindanao CSRS web interface. It allows you to change fonts, colors, padding, and more, as well as calculate GWA (General Weighted Average) directly from the popup.
+![Extension](https://raw.githubusercontent.com/chrisracha/csrs-customizer/refs/heads/main/snapshot.png)
+
+A Chrome-based extension that customizes the UP Mindanao CSRS web interface. It allows you to change fonts, colors, padding, and more, as well as calculate GWA (General Weighted Average) directly from the popup.
 
 ## Features
 - Change all font-family styles to your preferred font (Inter, SF UI Display, Roboto, Open Sans, Courier New, Times New Roman, and more)
